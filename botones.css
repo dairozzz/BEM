@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+:root{
+  --blanco:#fff;
+  --negro:#000;
+  --azul:rgb(26, 149, 151);
+  --violeta:rgb(111, 43, 195);
+  --verde:rgb(42, 148, 16);
+  --rojo:rgb(244, 39, 39);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
+.boton{
+  background-color: seagreen;
+  padding: 12px;
+  border: solid 1px seagreen;
+  border-radius: 5px;
+  margin: 0 auto;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.boton--borde{
+  border: solid 1px seagreen;
+  background-color: #fff;
+  color: seagreen;
+}
+
+.boton:hover{
+  background-color: #fff;
+  color: seagreen;
+  border: solid 1px seagreen;
+}
+
+.boton--borde:hover{
+  background-color: seagreen;
+  color: #fff;
+  border: 1px solid seagreen;
+}
+
+/**-------------------**/
+.boton--azul{
+  border: solid 1px var(--azul);
+  background-color: #fff;
+  color: var(--azul);
+}
+
+/* .boton--borde:hover{
+  border: solid 1px #fff;
+  background-color: seagreen;
+  color: #fff;
+} */
+
+.boton:hover{
+  background-color: #fff;
+  color: seagreen;
+  border: solid 1px seagreen;
+}
+
+/**-------------------**/
+/**-------------------**/
+
+.boton--violeta{
+  border: solid 1px var(--violeta);
+  background-color: #fff;
+  color: var(--violeta);
+}
+.boton--violeta:hover{
+  border: solid 1px #fff;
+  background-color: var(--violeta);
+  color: #fff;
+}
+/**-------------------**/
+/**-------------------**/
+
+.boton--verde{
+  border: solid 1px var(--verde);
+  background-color: #fff;
+  color: var(--verde);
+}
+.boton--verde:hover{
+  border: solid 1px #fff;
+  background-color: var(--verde);
+  color: #fff;
+}
+/**-------------------**/
+/**-------------------**/
+
+.boton--rojo{
+  border: solid 1px var(--rojo);
+  background-color: #fff;
+  color: var(--rojo);
+}
+.boton--rojo:hover{
+  border: solid 1px #fff;
+  background-color: var(--rojo);
+  color: #fff;
+}
+/**-------------------**/
+
+
+.boton__texto{
+  /**color: #fff;**/
+}
+
+.boton__icono{
+  /**color: #fff;**/
+}
